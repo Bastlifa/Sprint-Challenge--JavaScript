@@ -12,8 +12,6 @@ class CuboidMaker
     surfaceArea() { return 2 * (this.length * this.width  + this.length * this.height + this.width * this.height); }
 }
 
-
-
 const cuboid = new CuboidMaker
 ({
     length: 4,
